@@ -1,0 +1,750 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .home
+{
+    background-image: url(images/intro-bg.jpg);
+    background-size: 100% 100%;
+    background-position: center center;
+    height: 100vh;
+    position: relative;
+    padding: 200px;
+}
+.layer
+{
+    background-color: rgba(0, 0, 0,0.6);
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.home-content
+{
+    text-align: center;
+    color: #fff;
+    position: relative;
+    padding: 20px;
+    font-size: 1.75rem !important;
+
+}
+.home-content h2,p,.btn
+{
+    padding: 10px;
+}
+.btn
+{
+    padding: 10px 40px;
+    border: none;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 2px solid #20c997;
+    color: #fff;
+    transition: all 1s;
+}
+.btn:hover
+{
+    background-color:#20c997 ;
+}
+.paragraph
+{
+    color: #dee3e4 ;
+} */
+body
+{
+    height: 1000px;
+    font-family: "Poppins", sans-serif;
+}
+.layer-content h1::after
+{
+    content:"";
+    animation: typing 10s infinite;
+}
+@keyframes typing
+{
+    0%{content:"P|";}
+    2%{content:"Ph";}
+    4%{content:"Pho|";}
+    6%{content:"Phot";}
+    8%{content:"Photo|";}
+    10%{content:"Photog|";}
+    12%{content:"Photogr|";}
+    14%{content:"Photogra|";}
+    16%{content:"Photograp|";}
+    18%{content:"Photograph|";}
+    20%{content:"Photographe|";}
+    22%{content:"Photographer|";}
+    20%{content:"Photographe|";}
+    18%{content:"Photograph|";}
+    16%{content:"Photograp|";}
+    14%{content:"Photogra|";}
+    12%{content:"Photogr|";}
+    10%{content:"Photog|";}
+    8%{content:"Photo|";}
+    6%{content:"Phot|";}
+    4%{content:"Pho|";}
+    2%{content:"Ph|";}
+    0%{content:"P|";}
+
+
+}
+.navbar
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    z-index: 999;
+}
+.navbar ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.navbar ul a{
+    color: #fff;
+    text-decoration: none;
+    transition: all 1s;
+
+}
+.navbar ul li
+{
+    padding: 5px 20px;
+
+}
+.navbar h2
+{
+    padding-right: 200px;
+    padding-left: 10px;
+    color: #fff;
+    font-size: 2rem;
+}
+.navbar ul a:hover
+{
+    color: #20c997;
+}
+
+.header
+{
+    background-image: url(images/intro-bg.jpg);
+    background-size: 100% 100%;
+    background-position: center center;
+    position: relative;
+    height: 100vh;
+}
+.layer
+{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.layer-content
+{
+    padding: 20px;
+}
+.header h1
+{
+    font-size: 70px;
+    font-weight: 900;  
+}
+.header p
+{
+    font-size: 20px;
+    font-weight: 900;  
+}
+.layer-content button
+{
+    padding: 10px 30px;
+    border: #20c997 1px solid;
+    border-radius: 20px;
+    margin-top: 20px;
+    background-color: transparent;
+    color: #20c997;
+    transition: all 1s;
+
+}
+.layer-content button:hover
+{
+    background-color: #20c997;
+    color: #fff;
+}
+.about
+{
+}
+.about-me
+{
+    text-align: center;
+    padding: 100px;
+}
+.about-content
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+
+}
+.about-Simone
+{
+    width: 50%;
+    padding: 20px;
+}
+.about-info
+{
+    width: 50%;
+    padding: 20px;
+    line-height: 40px;
+}
+.about-info button
+{
+    padding: 10px 30px;
+    border: #20c997 1px solid;
+    border-radius: 20px;
+    margin-top: 20px;
+    background-color:#20c997 ;
+    color:#fff ;
+    transition: all 1s;
+}
+.about-info button:hover
+{
+}
+.about-me p::after
+{
+    content: " ";
+    background-color: #20c997;
+    position: absolute;
+    top: 115%;
+    left: 47%;
+    width: 60px;
+    height: 5px;
+    z-index: 1;
+}
+.what p::after
+{
+    content: " ";
+    background-color: #20c997;
+    position: absolute;
+    top: 105%;
+    left: 47%;
+    width: 60px;
+    height: 5px;
+}
+.resume p::after
+{
+    content: " ";
+    background-color: #20c997;
+    position: absolute;
+    top: 105%;
+    left: 10%;
+    width: 60px;
+    height: 5px;
+}
+.my-work p::after
+{
+    content: " ";
+    background-color: #20c997;
+    position: absolute;
+    top: 105%;
+    left: 47%;
+    width: 60px;
+    height: 5px;
+}
+.my-work p
+{
+    position: relative;
+
+}
+.client p
+{
+    position: relative;
+}
+.client p::after
+{
+    content: " ";
+    background-color: #20c997;
+    position: absolute;
+    top: 105%;
+    left: 47%;
+    width: 60px;
+    height: 5px;
+}
+.about-me p
+{
+    position: relative;
+}
+.get p::after
+{
+    content: " ";
+    background-color: #20c997;
+    position: absolute;
+    top: 105%;
+    left: 47%;
+    width: 60px;
+    height: 5px;
+}
+.get p
+{
+    position: relative;
+}
+.about-me p::before
+{
+    content: "About Me ";
+    position: absolute;
+    opacity: 0.2;
+    font-size: 3rem;
+    bottom: 0.5px;
+    transform: translate(-50%);
+    left: 50%;
+}
+ul
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+}
+.statistics
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+    padding-top: 50px;
+}
+.member
+{
+   width: 
+   25%; 
+}
+.what p::before
+{
+    content: "Services";
+    position: absolute;
+    opacity: 0.2;
+    font-size: 3rem;
+    bottom: 0.5px;
+    transform: translate(-50%);
+    left: 50%;
+}
+
+.what
+{
+    text-align: center;
+    padding: 100px;
+}
+.what p{
+    position: relative;
+
+}
+
+
+.item-content
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+}
+
+.item
+{
+    width: 50%;
+    padding: 20px;
+
+}
+.summary
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.resume p::before
+{
+    content: "Summary";
+    position: absolute;
+    opacity: 0.2;
+    font-size: 3rem;
+    bottom: 0.5px;
+    transform: translate(-50%);
+    left: 50%;
+}
+.resume-content
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    width: 100%;
+}
+.resume-item
+{
+    width: 40%;
+    border: 1px solid #dee2e6!important;
+    border-radius: 0.25rem;
+    padding: 2rem;
+    line-height: 1.8;
+}
+.resume-item p
+{
+    margin-top: 10px;
+}
+.resume-item span
+{
+    color: #dc3545!important;
+
+}
+
+.resume
+{
+    text-align: center;
+    padding: 100px;
+}
+
+
+.resume p
+{
+    position: relative;
+}
+.container
+{
+    margin: 10px;
+}
+.resume-header
+{
+    width: 40%;
+}
+.date
+{
+    background-color: #20c997;
+    width: fit-content;
+    color: #fff;
+    border-radius: 0.25rem;
+    padding: 0.35em 0.65em;
+    line-height: 1;
+}
+
+.my-skills
+{
+    margin-left: 8%;
+    margin-top: 23px;
+    margin-bottom: 20px;
+}
+
+.skills-content
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.skills-item
+{
+    width: 40%;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+progress
+{
+    height: 25px;
+    width: 100%;
+}
+.skills-item span
+{
+    float: right;
+}
+.clr
+{
+    clear: both;
+}
+.skills-btn
+{
+    text-align: center;
+}
+.skills-btn button
+{
+    background-color: transparent;
+    padding: 10px 20px;
+    border-radius: 50rem!important;
+    padding: 0.8rem 2.6rem;
+    font-weight: 500;
+    border-width: 2px;
+    color: #6c757d;
+    transition: all 1s;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.skills-btn button:hover
+{
+    background-color: #6c757d;
+    color: #fff;
+}
+.portfolio
+{
+    background-color: #f8f9fa!important;
+}
+.my-work p::before
+{
+    content: "Portfolio";
+    position: absolute;
+    opacity: 0.2;
+    font-size: 3rem;
+    bottom: 0.5px;
+    transform: translate(-50%);
+    left: 50%;
+}
+
+.my-work
+{
+    text-align: center;
+    padding: 100px;
+}
+.portfolio-links
+{
+    text-align: center;
+    padding: 30px;
+}
+.portfolio-links a
+{
+    padding-left: 30px;
+    color: #7b8084;
+    transition: all 1s;
+}
+
+.portfolio-photo img
+{
+    width: 100%;
+    margin: 10px;
+    transition: all 1s;
+    position: relative;
+
+}
+.portfolio-photo img:hover
+{
+
+}
+
+.photo-member
+{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.image-content
+{
+    width: 30%;
+}
+.portfolio-links a:hover
+{
+    color: #20c997;
+}
+.image-layer
+{
+    position: absolute;
+    top: 10%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.image-content img::after
+{
+    content: "zordok ";
+    background-color: #20c997;
+    position: absolute;
+    top: 105%;
+    left: 10%;
+    width: 60px;
+    height: 5px;
+}
+
+.test-content
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.client
+{
+    padding: 100px;
+    text-align: center;
+}
+.test-member
+{
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #f8f9fa!important;
+}
+.test-img
+{
+    width: 20%;
+}
+.test-img img
+{
+    border-radius: 50%;
+}
+.test-par
+{
+    margin-top: 20px;
+}
+.one span
+{
+    color: #6c757d!important;
+}
+
+.get 
+{
+    text-align: center;
+    padding: 100px;
+}
+.contact
+{
+    background-color: #f8f9fa!important;
+
+}
+.contact-info
+{
+    width: 22%;
+    padding: 9px;
+}
+.contact-content
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.contact-form
+{
+    width: 70%;
+    text-align: center;
+    padding: 10px;
+}
+.contact-content p
+{
+    line-height: 30px;
+}
+input,textarea
+{ 
+padding:15px ;
+border-radius: 5px;
+width: 40%;
+border: 1px solid gray;
+}
+textarea
+{
+    margin-top: 30px;
+    width: 60%;
+}
+.form-btn
+{
+    border-radius: 50rem!important;
+    padding: 0.8rem 2.6rem;
+    font-weight: 500;
+    color: #fff;
+    transition: all 1s;
+    font-weight: 500;
+    font-size: 1rem;
+    background-color: #20c997;
+    border: none;
+    margin-top: 10px;
+}
+.contact-form h2
+{
+    margin-bottom: 5px;
+}
+.footer
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 100px;
+    color: #252b33;
+    background-color: ;
+}
+a
+{
+    text-decoration: none;
+    color: #252b33;
+}
+.footer-start, .footer-end
+{
+    width: 40%;
+    text-align: center;
+}
+.footer-start span
+{
+    color: #20c997;
+}
+.footer-end a
+{
+    transition: all 1s;
+}
+.footer-end a:hover
+{
+color: #20c997;
+}
+.about-me p,.what p,.resume p,.my-skills p,.my-work p,.client p,.get p
+{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.client p::before
+{
+    content: "Testimonail";
+    position: absolute;
+    opacity: 0.2;
+    font-size: 3rem;
+    transform: translate(-50%);
+    left: 50%;
+    bottom:0.5px;
+}
+.get p::before
+{
+    content: "CONTACT";
+    position: absolute;
+    opacity: 0.2;
+    font-size: 3rem;
+    bottom: 0.5px;
+    transform: translate(-50%);
+     left: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
